@@ -10,7 +10,7 @@ public class TabController : MonoBehaviour
 
     void Start()
     {
-        ActivateTab(0);
+
     }
     public void ActivateTab(int tabNo)
     {
@@ -20,6 +20,6 @@ public class TabController : MonoBehaviour
             tabImages[i].color = Color.grey;
         }
         pages[tabNo].SetActive(true);
-        tabImages[tabNo].color - Color.white;
+        tabImages[tabNo].color = Color.white;
     }
 }

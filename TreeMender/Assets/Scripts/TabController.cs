@@ -8,10 +8,6 @@ public class TabController : MonoBehaviour
     public Image[] tabImages;
     public GameObject[] pages;
 
-    void Start()
-    {
-
-    }
     public void ActivateTab(int tabNo)
     {
         for (int i = 0; i < pages.Length; i++)

@@ -15,7 +15,7 @@ public class PlayerItemCollector : MonoBehaviour
         if (collision.CompareTag("Item"))
         {
             Item item = collision.GetComponent<Item>();
-            if (item != null)
+            if(item != null)
             {
                 bool itemAdded = inventoryController.AddItem(collision.gameObject);
 

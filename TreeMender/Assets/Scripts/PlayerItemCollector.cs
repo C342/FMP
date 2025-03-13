@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class PlayerItemCollector : MonoBehaviour
 {
     private InventoryController inventoryController;
@@ -15,10 +14,15 @@ public class PlayerItemCollector : MonoBehaviour
     {
         if (collision.CompareTag("Item"))
         {
-            UnityEditor.Progress.Item item = collision.GetComponent<UnityEditor.Progress.Item>();
+            Item item = collision.GetComponent<Item>();
             if (item != null)
             {
-                
+                bool itemAdded = inventoryController.AddItem(collision.gameObject);
+
+                if (itemAdded)
+                {
+                    Destroy(collision.gameObject);
+                }
             }
         }
     }

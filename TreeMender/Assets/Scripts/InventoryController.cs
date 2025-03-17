@@ -15,7 +15,7 @@ public class InventoryController : MonoBehaviour
     void Start()
     {
         itemDictionary = FindObjectOfType<ItemDictionary>();
-        itemDictionary = FindObjectOfType<ItemDragHandler>();
+        //itemDictionary = FindObjectOfType<ItemDragHandler>();
 
         for (int i = 0; i < slotCount; i++)
         {
@@ -54,7 +54,7 @@ public class InventoryController : MonoBehaviour
 
         for (int i = 0; i < slotCount; i++)
         {
-            Instantiate(slotPrefab, inventoryPanel.transform)
+            Instantiate(slotPrefab, inventoryPanel.transform);
         }
 
         foreach (InventorySaveData data in InventorySaveData)

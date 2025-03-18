@@ -57,20 +57,20 @@ public class InventoryController : MonoBehaviour
             Instantiate(slotPrefab, inventoryPanel.transform);
         }
 
-        foreach (InventorySaveData data in InventorySaveData)
-        {
-            if (data.SlotIndex < slotCount)
-            {
-                Slot slot = inventoryPanel.transform.GetChild(data.SlotIndex).GetComponent<Slot>();
-                GameObject itemPrefab = itemDictionary.GetItemPrefab(data.itemID);
-                if (itemPrefab != null)
-                {
-                    GameObject item = Instantiate(itemPrefab, slot.transform);
-                    item.GetComponent<RectTransform>.anchoredPosition = Vector2.zero;
-                    slot.currentItem = item;
-                }
-            }
-        }
+        //foreach (InventorySaveData data in InventorySaveData)
+        //{
+        //    if (data.SlotIndex < slotCount)
+        //    {
+        //        Slot slot = inventoryPanel.transform.GetChild(data.SlotIndex).GetComponent<Slot>();
+        //        GameObject itemPrefab = itemDictionary.GetItemPrefab(data.itemID);
+        //        if (itemPrefab != null)
+        //        {
+        //            GameObject item = Instantiate(itemPrefab, slot.transform);
+        //            item.GetComponent<RectTransform>.anchoredPosition = Vector2.zero;
+        //            slot.currentItem = item;
+        //        }
+        //    }
+        //}
     }
 
     public bool AddItem(GameObject itemPrefab)

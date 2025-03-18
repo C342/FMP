@@ -9,5 +9,4 @@ public class InventorySaveData : MonoBehaviour
     public int SlotIndex;
     public InventorySaveData inventorySaveData;
 
-    
 }

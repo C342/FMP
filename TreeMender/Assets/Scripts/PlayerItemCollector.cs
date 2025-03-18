@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 public class PlayerItemCollector : MonoBehaviour
 {
@@ -17,7 +18,7 @@ public class PlayerItemCollector : MonoBehaviour
             Item item = collision.GetComponent<Item>();
             if (item != null)
             {
-                bool itemAdded = inventoryController.AddItem(collision.gameObject);
+                bool itemAdded = inventoryController;//.AddItem()(collision.gameObject);
 
                 if (itemAdded)
                 {

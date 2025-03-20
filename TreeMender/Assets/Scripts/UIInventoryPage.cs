@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InventoryUIController : MonoBehaviour
+public class UIInventoryPage : MonoBehaviour
 {
     [SerializeField]
     private UIInventoryItem itemPrefab;
@@ -14,7 +14,7 @@ public class InventoryUIController : MonoBehaviour
 
     public void InitializeInventoryUI(int Inventorysize)
     {
-        for (int i = 0, i < Inventorysize; i++)
+        for (int i = 0; i < Inventorysize; i++)
         {
             UIInventoryItem uiItem = Instantiate(itemPrefab, Vector3.zero, Quaternion.identity);
             uiItem.transform.SetParent(contentPanel);

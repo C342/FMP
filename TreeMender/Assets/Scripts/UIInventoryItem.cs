@@ -11,6 +11,7 @@ public class UIInventoryItem : MonoBehaviour
 {
     [SerializeField]
     private Image itemImage;
+
     [SerializeField]
     private TMP_Text quantityTxt;
 

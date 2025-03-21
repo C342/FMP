@@ -13,7 +13,7 @@ public class PickUpSystem : MonoBehaviour
         Item item = collision.GetComponent<Item>();
         if (item != null)
         {
-            int reminder = inventoryData.AddItem(item.InventoryItem, item.Quantity);
+            int reminder = InventoryData.AddItem(item.InventoryItem, item.Quantity);
             if (reminder == 0)
                 item.DestroyItem();
             else

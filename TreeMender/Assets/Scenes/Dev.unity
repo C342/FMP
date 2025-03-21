@@ -671,27 +671,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 596978190980922253, guid: 3fd3cee8e5e1a814e85544d4ec8c25f7, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 596978190980922253, guid: 3fd3cee8e5e1a814e85544d4ec8c25f7, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 596978190980922253, guid: 3fd3cee8e5e1a814e85544d4ec8c25f7, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 140
       objectReference: {fileID: 0}
     - target: {fileID: 596978190980922253, guid: 3fd3cee8e5e1a814e85544d4ec8c25f7, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 140
       objectReference: {fileID: 0}
     - target: {fileID: 596978190980922253, guid: 3fd3cee8e5e1a814e85544d4ec8c25f7, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 596978190980922253, guid: 3fd3cee8e5e1a814e85544d4ec8c25f7, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -100
       objectReference: {fileID: 0}
     - target: {fileID: 1171297266054213841, guid: 3fd3cee8e5e1a814e85544d4ec8c25f7, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1053,6 +1053,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3659278934761756614, guid: 19705bba8dac6c445befbc633796279b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5795714115589604051}
+    - targetCorrespondingSourceObject: {fileID: 3659278934761756614, guid: 19705bba8dac6c445befbc633796279b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5795714115589604055}
   m_SourcePrefab: {fileID: 100100000, guid: 19705bba8dac6c445befbc633796279b, type: 3}
 --- !u!1 &5795714115589604048 stripped
 GameObject:
@@ -1089,6 +1092,22 @@ MonoBehaviour:
   itemDescription: {fileID: 0}
   mouseFollower: {fileID: 0}
   actionPanel: {fileID: 0}
+--- !u!114 &5795714115589604055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5795714115589604048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66e444eacb8a2d44db929d5de3a761f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weapon: {fileID: 0}
+  inventoryData: {fileID: 0}
+  parametersToModify: []
+  itemCurrentState: []
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -954,17 +954,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 2317372362987286822}
   m_SourcePrefab: {fileID: 100100000, guid: 3fd3cee8e5e1a814e85544d4ec8c25f7, type: 3}
---- !u!114 &2317372362987286820 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4107381906090275764, guid: 3fd3cee8e5e1a814e85544d4ec8c25f7, type: 3}
-  m_PrefabInstance: {fileID: 2317372362987286819}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2317372362987286821 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3505618233059818013, guid: 3fd3cee8e5e1a814e85544d4ec8c25f7, type: 3}
@@ -982,9 +971,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d83d0dc26c623f43b05d6e0957b512b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemImage: {fileID: 476642331610506577, guid: 9ab44d83af4afe74098b0650ffb164aa, type: 3}
-  quantityTxt: {fileID: 2317372362987286820}
-  borderImage: {fileID: 0}
+  itemPrefab: {fileID: 0}
+  contentPanel: {fileID: 0}
+  itemDescription: {fileID: 0}
+  mouseFollower: {fileID: 0}
+  actionPanel: {fileID: 0}
 --- !u!1001 &5795714115589604047
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1045,6 +1036,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3659278934761756614, guid: 19705bba8dac6c445befbc633796279b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5795714115589604050}
+    - targetCorrespondingSourceObject: {fileID: 3659278934761756614, guid: 19705bba8dac6c445befbc633796279b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5795714115589604054}
   m_SourcePrefab: {fileID: 100100000, guid: 19705bba8dac6c445befbc633796279b, type: 3}
 --- !u!1 &5795714115589604048 stripped
 GameObject:
@@ -1064,6 +1058,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+--- !u!114 &5795714115589604054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5795714115589604048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f68b183996e4886418cc5692c4ad446b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventoryUI: {fileID: 2317372362987286822}
+  inventoryData: {fileID: 0}
+  initialItems: []
+  dropClip: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

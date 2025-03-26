@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -10,14 +12,14 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     [Header("UI")]
     public Image image;
 
-    public Item item;
+    //public Item item;
     [HideInInspector] public Transform parentAfterDrag;
 
-    public void InitialiseItem(Item newItem)
-    {
-        item = newItem;
-        image.sprite = newItem.image;
-    }
+    //public void InitialiseItem(Item newItem)
+    //{
+    //    item = newItem;
+    //    image.sprite = newItem.image;
+    //}
     public void OnBeginDrag(PointerEventData eventData)
     {
         image.raycastTarget = false;
@@ -34,5 +36,10 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     {
         image.raycastTarget = true;
         transform.SetParent(parentAfterDrag);
+    }
+
+    internal void InitialiseItem(Progress.Item item)
+    {
+        throw new NotImplementedException();
     }
 }

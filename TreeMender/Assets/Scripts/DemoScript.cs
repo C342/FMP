@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class DemoScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public InventoryManager inventoryManager;
+    public Item[] itemsToPickup;
 
-    // Update is called once per frame
-    void Update()
+    public void PickUpItem(int id)
     {
-        
+        inventoryManager.AddItem(itemsToPickup[id]);
     }
 }

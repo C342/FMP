@@ -2155,7 +2155,7 @@ GameObject:
   - component: {fileID: 1383843438}
   - component: {fileID: 1383843437}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: DialogueText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2748,6 +2748,7 @@ GameObject:
   - component: {fileID: 1575427091}
   - component: {fileID: 1575427093}
   - component: {fileID: 1575427092}
+  - component: {fileID: 1575427094}
   m_Layer: 5
   m_Name: DialogueBox
   m_TagString: Untagged
@@ -2772,7 +2773,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000061035156}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -597.7948, y: -484.7126}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1575427092
@@ -2813,6 +2814,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1575427090}
   m_CullTransparentMesh: 1
+--- !u!114 &1575427094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575427090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8de02824dbaae814a8c26c658b7aea59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1383843437}
+  lines:
+  - There is no game here, please leave
+  - Like I said, there is no game, leave, stop trying
+  - This is the final time Im going to ask you to leave before I disappear, there
+    is no game, LEAVE
+  TextSpeed: 0.05
 --- !u!1 &1634017911
 GameObject:
   m_ObjectHideFlags: 0

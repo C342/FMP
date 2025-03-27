@@ -12,6 +12,8 @@ public class InventoryManager : MonoBehaviour
 
     void ChangeSelectedSlot(int newValue)
     {
+        if(selectedSlot >= 0)
+        inventorySlots[selectedSlot].Deselect();
         inventorySlots[newValue].Select();
         selectedSlot = newValue;
     }

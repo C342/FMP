@@ -5,12 +5,13 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using TMPro;
 
 public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
     [Header("UI")]
     public Image image;
-    public Text countText;
+    public TextMeshPro countText;
 
     [HideInInspector] public Item item;
     [HideInInspector] public Transform parentAfterDrag;

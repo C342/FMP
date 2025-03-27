@@ -7,6 +7,14 @@ public class InventoryManager : MonoBehaviour
     public int maxStackedItems = 4;
     public InventorySlot[] inventorySlots;
     public GameObject inventoryItemPrefab;
+
+    int selectedSlot = -1;
+
+    void ChangeSelectedSlot(int newValue)
+    {
+        inventorySlots[newValue].Select();
+        selectedSlot = newValue;
+    }
     public bool AddItem(Item item)
     {
         for (int i = 0; i < inventorySlots.Length; i++)

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class InventoryManager : MonoBehaviour
@@ -9,6 +10,23 @@ public class InventoryManager : MonoBehaviour
     public GameObject inventoryItemPrefab;
 
     int selectedSlot = -1;
+
+    private void Start()
+    {
+        ChangeSelectedSlot(0);
+    }
+
+    private void Update()
+    {
+        if (Input.inputString != null)
+        {
+            bool isNumber = int.TryParse(Input.inputString, out int number);
+            if (isNumber && number > 0 && number < 2)
+            {
+                ChangeSelectedSlot(number -1);
+            }
+        }
+    }
 
     void ChangeSelectedSlot(int newValue)
     {

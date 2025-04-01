@@ -6,10 +6,15 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 5f;
-    private string currentState;
 
     private Rigidbody2D rb;
     private Animator animator;
+    float horizontalMove = 0f;
+
+    bool FacingBackward = false;
+    bool FacingForward = false;
+    bool FacingLeft = false;
+    bool FacingRight = false;
 
     private float speedX;
     private float speedY;
@@ -18,21 +23,34 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        animator.Play("Idle");
-    }
-
-    void ChangeAnimationState(string newState)
-    {
-
     }
 
     void Update()
     {
 
-        speedX = Input.GetAxisRaw("Horizontal");
-        speedY = Input.GetAxisRaw("Vertical");
 
 
-        animator.SetFloat("xVelocity", Mathf.Abs(speedX));
+        horizontalMove = Input.GetAxisRaw("Horizontal") * moveSpeed;
+        animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            animator.SetBool("FacingBackward", (FacingBackward = true));
+        }
+
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            animator.SetBool("FacingForward", (FacingForward = true));
+        }
+
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            animator.SetBool("FacingLeft", (FacingLeft = true));
+        }
+
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            animator.SetBool("FacingRight", (FacingRight = true));
+        }
     }
 }

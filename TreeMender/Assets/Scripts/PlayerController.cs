@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Animator animator;
     float horizontalMove = 0f;
+    float verticalMove = 0f;
 
     bool FacingBackward = false;
     bool FacingForward = false;
@@ -28,7 +29,9 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
 
-
+        horizontalMove = Input.GetAxisRaw("Horizontal");
+        verticalMove = Input.GetAxisRaw("Vertical");
+        rb.velocity = new Vector2(horizontalMove * moveSpeed, verticalMove * moveSpeed);
 
         horizontalMove = Input.GetAxisRaw("Horizontal") * moveSpeed;
         animator.SetFloat("Speed", Mathf.Abs(horizontalMove));

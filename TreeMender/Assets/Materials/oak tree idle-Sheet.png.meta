@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 42822a384c149a34ab0d5ce2a81fcc68
+guid: b68a14d10f2f2b14381fa55051257c8b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -147,7 +147,154 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: oak tree idle-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 12
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2af191d9f33984ea62d620a081cfb9
+      internalID: -1207546041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oak tree idle-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 12
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b561f429b4720f438dc06715b89a285
+      internalID: 691885451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oak tree idle-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 12
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b8ede1cfc8e9549bc99d0531b91c85
+      internalID: -627605322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oak tree idle-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 12
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4a3b0d3656e4241bb22e8353d8d19c
+      internalID: -192714112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oak tree idle-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 12
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11b5d8802fff0e4d97b82ce29b6f7a9
+      internalID: 1577592720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oak tree idle-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 12
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b138c4a1f09d2ab44afb73cf39979617
+      internalID: 1104199991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oak tree idle-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 12
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31df17d268064d541af662e0a65dcd89
+      internalID: -1842863610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -158,7 +305,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      oak tree idle-Sheet_0: -1207546041
+      oak tree idle-Sheet_1: 691885451
+      oak tree idle-Sheet_2: -627605322
+      oak tree idle-Sheet_3: -192714112
+      oak tree idle-Sheet_4: 1577592720
+      oak tree idle-Sheet_5: 1104199991
+      oak tree idle-Sheet_6: -1842863610
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

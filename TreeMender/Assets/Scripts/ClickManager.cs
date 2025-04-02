@@ -15,7 +15,10 @@ public class ClickManager : MonoBehaviour
 
             if (hit.collider != null)
             {
-                Debug.Log("Working");
+                if (hit.collider.gameObject.tag == "Tree")
+                {
+                   // Tree.instance.TakeDamage();
+                }
             }
         }
     }

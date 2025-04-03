@@ -15,13 +15,23 @@ public class SceneController : MonoBehaviour
         Application.Quit();
     }
 
-    public void Settings()
+    public void Options()
     {
-
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
 
     public void Credits()
     {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+    }
 
+    public void OptionsReturn()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+    }
+
+    public void CreditsReturn()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
     }
 }

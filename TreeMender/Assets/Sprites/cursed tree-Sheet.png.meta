@@ -147,7 +147,70 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: cursed tree-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 6
+        width: 69
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d5203b7019db1499ab7dc60f3069f7
+      internalID: 991882525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed tree-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 6
+        width: 65
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17afd3fbec7216f41981fa34bc51ec9f
+      internalID: 2054285125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed tree-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 6
+        width: 67
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42e89da2ebb3334a8597e2891e57399
+      internalID: -1033210065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -158,7 +221,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cursed tree-Sheet_0: 991882525
+      cursed tree-Sheet_1: 2054285125
+      cursed tree-Sheet_2: -1033210065
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

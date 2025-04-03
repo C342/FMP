@@ -29,7 +29,7 @@ public class TreeFell : MonoBehaviour
 
     public void Shake()
     {
-
+        animator.SetTrigger("Shake");
     }
 
     public void TakeDamage()

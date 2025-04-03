@@ -14,4 +14,14 @@ public class SceneController : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void Settings()
+    {
+
+    }
+
+    public void Credits()
+    {
+
+    }
 }

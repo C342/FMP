@@ -36,24 +36,32 @@ public class PlayerController : MonoBehaviour
         horizontalMove = Input.GetAxisRaw("Horizontal") * moveSpeed;
         animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
 
-        if (Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKey(KeyCode.S))
         {
-            animator.SetBool("FacingBackward", (FacingBackward = true));
+            animator.SetBool("FacingBackward", true);
+            FacingBackward = true;
         }
-
-        if (Input.GetKeyDown(KeyCode.W))
+        else if (Input.GetKey(KeyCode.W))
         {
-            animator.SetBool("FacingForward", (FacingForward = true));
+            animator.SetBool("FacingForward", true);
+            FacingForward = true;
         }
-
-        if (Input.GetKeyDown(KeyCode.A))
+        else if (Input.GetKey(KeyCode.A))
         {
-            animator.SetBool("FacingLeft", (FacingLeft = true));
+            animator.SetBool("FacingLeft", true);
+            FacingLeft = true;
         }
-
-        if (Input.GetKeyDown(KeyCode.D))
+        else if (Input.GetKey(KeyCode.D))
         {
-            animator.SetBool("FacingRight", (FacingRight = true));
+            animator.SetBool("FacingRight", true);
+            FacingRight = true;
+        }
+        else
+        {
+            animator.SetBool("FacingBackward", false);
+            animator.SetBool("FacingForward", false);
+            animator.SetBool("FacingLeft", false);
+            animator.SetBool("FacingRight", false);
         }
     }
 }

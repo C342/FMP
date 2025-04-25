@@ -22,7 +22,7 @@ public class ClockTimer : MonoBehaviour
 
         if (minutes > 15)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
         }
     }
 }

@@ -5171,7 +5171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiTimerText: {fileID: 113051517}
-  timerMultiplier: 1
+  timerMultiplier: 50
 --- !u!1001 &1998473938
 PrefabInstance:
   m_ObjectHideFlags: 0

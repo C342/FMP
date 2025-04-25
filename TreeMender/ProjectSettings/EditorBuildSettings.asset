@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: 332638afcbfa7fa45b8969c1e9045d45
+  - enabled: 1
+    path: Assets/Scenes/OverScreen.unity
+    guid: 13cc4279ca8d89544a0714d22f1cb9bd
   m_configObjects: {}

@@ -34,4 +34,9 @@ public class SceneController : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
     }
+
+    public void OverReturn()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);
+    }
 }

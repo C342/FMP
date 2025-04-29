@@ -804,7 +804,6 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 1ed9822ce1d1b1b47b1c637f3933a683, type: 3}
-  m_Sprite: {fileID: 21300000, guid: 1454754aa1184e34bbe7a277a3178420, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -826,8 +825,6 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.04, y: -0.02, z: 0}
   m_LocalScale: {x: 1.8867645, y: 1.8214885, z: 2.817131}
-  m_LocalPosition: {x: 0, y: 0.02, z: 0}
-  m_LocalScale: {x: 1.8757067, y: 1.6788538, z: 2.817131}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1579,12 +1576,11 @@ Transform:
   m_LocalPosition: {x: -3.6838083, y: -0.905356, z: -5.131649}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
   m_Children:
-  - {fileID: 191001894}
-  - {fileID: 2022735699}
-  - {fileID: 1487696871}
   - {fileID: 450128731}
+  - {fileID: 1487696871}
+  - {fileID: 2022735699}
+  - {fileID: 191001894}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &489842067
@@ -3542,7 +3538,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1194028452
+--- !u!114 &1194028456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194028446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f47f4d890e5a72249a385a6bd9c3c25b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1194028457
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3586,7 +3594,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1194028453}
+      - m_Target: {fileID: 1194028456}
         m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
         m_MethodName: LoadShop
         m_Mode: 1
@@ -3598,18 +3606,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &1194028453
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1194028446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f47f4d890e5a72249a385a6bd9c3c25b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1199765075
 GameObject:
   m_ObjectHideFlags: 0
@@ -4291,7 +4287,6 @@ Transform:
   - {fileID: 387495905}
   - {fileID: 765388620}
   - {fileID: 996598460}
-  - {fileID: 1505023370}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1468276795
@@ -6008,6 +6003,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2064067772}
+  - component: {fileID: 2064067773}
   m_Layer: 0
   m_Name: AcornSpawner
   m_TagString: Untagged
@@ -6030,6 +6026,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 775468718}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2064067773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2064067771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cacbf97d80e299e4781303c9d2042b0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToSpawn: {fileID: 3520470705353723845, guid: 88d764667d5968342af75650f7b66f52, type: 3}
+  spawnAreaMin: {x: 10, y: 4}
+  spawnAreaMax: {x: -4, y: -4}
+  spawnInterval: 20
 --- !u!1001 &2089836460
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6288,10 +6300,10 @@ PrefabInstance:
       addedObject: {fileID: 1194028451}
     - targetCorrespondingSourceObject: {fileID: 7285626363648399249, guid: eee102eab633eb141aa711093cf81b94, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1194028453}
+      addedObject: {fileID: 1194028456}
     - targetCorrespondingSourceObject: {fileID: 7285626363648399249, guid: eee102eab633eb141aa711093cf81b94, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1194028452}
+      addedObject: {fileID: 1194028457}
   m_SourcePrefab: {fileID: 100100000, guid: eee102eab633eb141aa711093cf81b94, type: 3}
 --- !u!1001 &2327683741179313666
 PrefabInstance:

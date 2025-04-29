@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEditorInternal;
+using UnityEngine.SceneManagement;
 
 public class AcornCounter : MonoBehaviour
 {
@@ -24,5 +25,10 @@ public class AcornCounter : MonoBehaviour
     {
         currentAcorns += v;
         acornText.text = "Acorns: " + currentAcorns.ToString();
+    }
+
+    public void ShopAcornCount()
+    {
+
     }
 }

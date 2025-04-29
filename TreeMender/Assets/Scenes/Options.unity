@@ -646,7 +646,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1568750036}
         m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
-        m_MethodName: OptionsReturn
+        m_MethodName: ReturnToTitle
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

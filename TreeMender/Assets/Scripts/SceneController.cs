@@ -7,7 +7,11 @@ public class SceneController : MonoBehaviour
 {
     public void PlayButton()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        if (Input.GetMouseButtonDown(0))
+        {
+            SceneManager.LoadScene("Level 1");
+        }
     }
 
     public void QuitGame()
@@ -17,34 +21,36 @@ public class SceneController : MonoBehaviour
 
     public void Options()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        if (Input.GetMouseButtonDown(0))
+        {
+            SceneManager.LoadScene("Options");
+        }
     }
 
     public void Credits()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        if (Input.GetMouseButtonDown(0))
+        {
+            SceneManager.LoadScene("Credits");
+        }
     }
 
-    public void OptionsReturn()
+    public void ReturnToTitle()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
-    }
-
-    public void CreditsReturn()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
-    }
-    public void OverReturn()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        if (Input.GetMouseButtonDown(0))
+        {
+            SceneManager.LoadScene("TitleScreen");
+        }
     }
     public void LoadShop()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
-    }
-
-    public void ReturnShop()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        if (Input.GetMouseButtonDown(0))
+        {
+            SceneManager.LoadScene("ShopScreen");
+        }
     }
 }

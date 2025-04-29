@@ -132,11 +132,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 633194470526452130, guid: 9bd8b3f5519b17c48bc5233085acdf9a, type: 3}
       propertyPath: m_text
-      value: Acorns
+      value: 'Acorns: '
       objectReference: {fileID: 0}
     - target: {fileID: 633194470526452130, guid: 9bd8b3f5519b17c48bc5233085acdf9a, type: 3}
       propertyPath: m_fontSize
-      value: 72
+      value: 67.5
       objectReference: {fileID: 0}
     - target: {fileID: 633194470526452130, guid: 9bd8b3f5519b17c48bc5233085acdf9a, type: 3}
       propertyPath: m_fontAsset
@@ -262,16 +262,50 @@ PrefabInstance:
       propertyPath: m_Name
       value: AcornCounter
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 221836518173127973, guid: 9bd8b3f5519b17c48bc5233085acdf9a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8676423720840257938, guid: 9bd8b3f5519b17c48bc5233085acdf9a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 180710962}
   m_SourcePrefab: {fileID: 100100000, guid: 9bd8b3f5519b17c48bc5233085acdf9a, type: 3}
 --- !u!224 &180710959 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6701539714181311963, guid: 9bd8b3f5519b17c48bc5233085acdf9a, type: 3}
   m_PrefabInstance: {fileID: 180710958}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &180710960 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 633194470526452130, guid: 9bd8b3f5519b17c48bc5233085acdf9a, type: 3}
+  m_PrefabInstance: {fileID: 180710958}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &180710961 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8676423720840257938, guid: 9bd8b3f5519b17c48bc5233085acdf9a, type: 3}
+  m_PrefabInstance: {fileID: 180710958}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &180710962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180710961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3d3bcc19c5f8904d86f1f3c673bc61b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  acornText: {fileID: 180710960}
+  currentAcorns: 0
 --- !u!1 &275641339
 GameObject:
   m_ObjectHideFlags: 0
@@ -565,7 +599,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 221836518173127973, guid: 9bd8b3f5519b17c48bc5233085acdf9a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ReturnShop
+      value: ReturnToTitle
       objectReference: {fileID: 0}
     - target: {fileID: 221836518173127973, guid: 9bd8b3f5519b17c48bc5233085acdf9a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName

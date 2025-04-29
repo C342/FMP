@@ -29,6 +29,6 @@ public class AcornCounter : MonoBehaviour
 
     public void ShopAcornCount()
     {
-
+        SceneManager.GetActiveScene();
     }
 }

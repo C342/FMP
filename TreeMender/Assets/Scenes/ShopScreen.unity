@@ -122,6 +122,28 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &36005979 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 633194470526452130, guid: 9bd8b3f5519b17c48bc5233085acdf9a, type: 3}
+  m_PrefabInstance: {fileID: 8562555204921035159}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &86024630 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 633194470526452130, guid: 9bd8b3f5519b17c48bc5233085acdf9a, type: 3}
+  m_PrefabInstance: {fileID: 1601547120}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &180710958
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -573,6 +595,58 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1071583499
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1071583501}
+  - component: {fileID: 1071583500}
+  m_Layer: 0
+  m_Name: Shop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1071583500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071583499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15448bab756931f4ab165d2a66b7471c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Acorns: 100
+  WaterBucket: 1
+  MWaterCan: 1
+  LWaterCan: 1
+  cText: {fileID: 180710960}
+  BucketText: {fileID: 36005979}
+  MWaterCanText: {fileID: 1237978977}
+  LWaterCanText: {fileID: 86024630}
+--- !u!4 &1071583501
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071583499}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1130.2725, y: 582.1876, z: -6.4163814}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1147490258
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -769,6 +843,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f47f4d890e5a72249a385a6bd9c3c25b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1237978977 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 633194470526452130, guid: 9bd8b3f5519b17c48bc5233085acdf9a, type: 3}
+  m_PrefabInstance: {fileID: 1616591997}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1585447431
@@ -1257,7 +1342,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 633194470526452130, guid: 9bd8b3f5519b17c48bc5233085acdf9a, type: 3}
       propertyPath: m_text
-      value: Water BUCKET
+      value: Water Bucket
       objectReference: {fileID: 0}
     - target: {fileID: 633194470526452130, guid: 9bd8b3f5519b17c48bc5233085acdf9a, type: 3}
       propertyPath: m_fontSize
@@ -1361,7 +1446,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8676423720840257938, guid: 9bd8b3f5519b17c48bc5233085acdf9a, type: 3}
       propertyPath: m_Name
-      value: Medium Water Bucket
+      value: Water Bucket
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1376,3 +1461,4 @@ SceneRoots:
   - {fileID: 1597494979}
   - {fileID: 460812572}
   - {fileID: 1585447433}
+  - {fileID: 1071583501}

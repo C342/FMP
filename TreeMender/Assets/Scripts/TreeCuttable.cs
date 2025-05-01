@@ -6,7 +6,7 @@ public class TreeCuttable : ToolHit
 {
 
     [SerializeField] GameObject pickUpDrop;
-    [SerializeField] int DropCount = 2;
+    [SerializeField] static int DropCount = 2;
     [SerializeField] float spread = 0.7f;
     public override void Hit()
     {
@@ -21,5 +21,13 @@ public class TreeCuttable : ToolHit
             go.transform.position = position;
         }
         Destroy(gameObject);
+    }
+
+    public void CursedTreeCut()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            AcornCounter.currentAcorns = +2;
+        }
     }
 }

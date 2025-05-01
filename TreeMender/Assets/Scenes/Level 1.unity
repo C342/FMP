@@ -6873,6 +6873,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MapleTree
       objectReference: {fileID: 0}
+    - target: {fileID: 4765408631576173826, guid: 05c0a233b0c94ed4692fa320f8ec8fec, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5470125604218605092, guid: 05c0a233b0c94ed4692fa320f8ec8fec, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.72

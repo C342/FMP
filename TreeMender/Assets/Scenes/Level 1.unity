@@ -6456,6 +6456,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2366972387886880356, guid: 865c7d26c2fee1f459a65d1b84c0483d, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4644181610737116434, guid: 865c7d26c2fee1f459a65d1b84c0483d, type: 3}
       propertyPath: m_Name
       value: BeaverNPC

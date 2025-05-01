@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
 
-public class RandomSpawner : MonoBehaviour
+public class AcornSpawner : MonoBehaviour
 {
-    public GameObject objectToSpawn;     // The prefab to spawn
-    public Vector2 spawnAreaMin = new Vector2(-10, -5);  // Bottom-left corner
-    public Vector2 spawnAreaMax = new Vector2(10, 5);    // Top-right corner
-    public float spawnInterval = 2f;     // Time between spawns in seconds
+    public GameObject Acorn;
+    public Vector2 spawnAreaMin = new Vector2(-10, -5);
+    public Vector2 spawnAreaMax = new Vector2(10, 5);
+    public float spawnInterval = 15f;
 
     private void Start()
     {
@@ -14,9 +14,9 @@ public class RandomSpawner : MonoBehaviour
 
     void SpawnObject()
     {
-        if (objectToSpawn == null)
+        if (Acorn == null)
         {
-            Debug.LogWarning("No object assigned to spawn.");
+            Debug.LogWarning("No acorn assigned in inspector!");
             return;
         }
 
@@ -25,6 +25,6 @@ public class RandomSpawner : MonoBehaviour
             Random.Range(spawnAreaMin.y, spawnAreaMax.y)
         );
 
-        Instantiate(objectToSpawn, spawnPosition, Quaternion.identity);
+        Instantiate(Acorn, spawnPosition, Quaternion.identity);
     }
 }

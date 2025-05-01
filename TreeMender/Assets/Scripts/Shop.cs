@@ -19,7 +19,7 @@ public class Shop : MonoBehaviour
 
     private void Start()
     {
-        Acorns = 1000;
+        Acorns = AcornCounter.currentAcorns;
         cText.text = Acorns.ToString();
     }
 

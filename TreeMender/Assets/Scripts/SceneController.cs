@@ -47,7 +47,6 @@ public class SceneController : MonoBehaviour
     }
     public void LoadShop()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         if (Input.GetMouseButtonDown(0))
         {
             SceneManager.LoadScene("ShopScreen");

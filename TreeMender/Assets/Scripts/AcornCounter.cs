@@ -10,7 +10,7 @@ public class AcornCounter : MonoBehaviour
     public static AcornCounter instance;
 
     public TMP_Text acornText;
-    public int currentAcorns = 0;
+    public static int currentAcorns = 0;
 
     void Awake()
     {
@@ -25,10 +25,5 @@ public class AcornCounter : MonoBehaviour
     {
         currentAcorns += v;
         acornText.text = "Acorns: " + currentAcorns.ToString();
-    }
-
-    public void ShopAcornCount()
-    {
-        SceneManager.GetActiveScene();
     }
 }

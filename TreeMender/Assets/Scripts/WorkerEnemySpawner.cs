@@ -8,6 +8,4 @@ public class WorkerEnemySpawner : MonoBehaviour
 
     public float WorkerSpeed;
     public float SpawnInterval;
-
-
 }

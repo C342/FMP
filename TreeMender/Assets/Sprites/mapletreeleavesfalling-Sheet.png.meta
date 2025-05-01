@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5e02c0bc3e55aa44193a348cc19ddf57
+guid: b685a70bddf743843af138284a7732b3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 61
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -149,13 +149,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MapleFall_0
+      name: mapletreeleavesfalling-Sheet_0
       rect:
         serializedVersion: 2
-        x: 100
-        y: 0
-        width: 205.26315
-        height: 120
+        x: 30
+        y: 8
+        width: 72
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c09741b9b30c3543a101efd009dbb8d
-      internalID: 885328417
+      spriteID: 713141f3a0a47e74c9fa9368e6d365c1
+      internalID: 349504659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MapleFall_1
+      name: mapletreeleavesfalling-Sheet_1
       rect:
         serializedVersion: 2
-        x: 305
-        y: 0
-        width: 205.26315
-        height: 120
+        x: 150
+        y: 8
+        width: 72
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +184,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03b8522baa4647c458617fbd45de944f
-      internalID: 1157246591
+      spriteID: 86dc0ef5a32735a4cb6b834e2b398c2a
+      internalID: -1770254516
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MapleFall_2
+      name: mapletreeleavesfalling-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 8
+        width: 72
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f24ff5e4c35ad418056d7f21c97ebc
+      internalID: -1793722294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapletreeleavesfalling-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 8
+        width: 72
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f7f30190364d84d997029981b66efa
+      internalID: 860670096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapletreeleavesfalling-Sheet_4
       rect:
         serializedVersion: 2
         x: 510
-        y: 0
-        width: 205.26315
-        height: 120
+        y: 8
+        width: 72
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,20 +247,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 131ea4e1994016f459d3efaf6c3e98dc
-      internalID: 1476491723
+      spriteID: 0e9989c3cc181824c9b64bebc870dbe7
+      internalID: -2066687444
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MapleFall_3
+      name: mapletreeleavesfalling-Sheet_5
       rect:
         serializedVersion: 2
-        x: 715
-        y: 0
-        width: 205.26315
-        height: 120
+        x: 630
+        y: 8
+        width: 72
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,20 +268,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c448aaac23eec3e4f9a9de4d3340ea96
-      internalID: 71792198
+      spriteID: 948d1741fa90ffa46a5fda2462dca5c7
+      internalID: 192151490
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MapleFall_4
+      name: mapletreeleavesfalling-Sheet_6
       rect:
         serializedVersion: 2
-        x: 920
-        y: 0
-        width: 205.26315
-        height: 120
+        x: 750
+        y: 8
+        width: 72
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,20 +289,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8bd52bec35254b408fe6b3fcdf31d09
-      internalID: 538791292
+      spriteID: f23472c7804a82f429924b7e6b716e51
+      internalID: 240657903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MapleFall_5
+      name: mapletreeleavesfalling-Sheet_7
       rect:
         serializedVersion: 2
-        x: 1125
-        y: 0
-        width: 205.26315
-        height: 120
+        x: 870
+        y: 8
+        width: 83
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,20 +310,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7add593756ca4144fad0dbd7867221c4
-      internalID: 350513277
+      spriteID: 96b3d135d2790f248a500c9281d8be7f
+      internalID: -1899641752
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MapleFall_6
+      name: mapletreeleavesfalling-Sheet_8
       rect:
         serializedVersion: 2
-        x: 1330
-        y: 0
-        width: 205.26315
-        height: 120
+        x: 990
+        y: 8
+        width: 72
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,20 +331,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8604ae8cfb1bea745a162ee95442fee8
-      internalID: 1673987987
+      spriteID: be76d30a132cb4f48a26aeab52782281
+      internalID: 1579662771
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MapleFall_7
+      name: mapletreeleavesfalling-Sheet_9
       rect:
         serializedVersion: 2
-        x: 1535
-        y: 0
-        width: 205.26315
-        height: 120
+        x: 1110
+        y: 8
+        width: 72
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,20 +352,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9592fbdbe3646fb49ba0d13debbe9832
-      internalID: 1342865072
+      spriteID: cbef569d119dfcf49b002a56e5b3749c
+      internalID: 164850590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MapleFall_8
+      name: mapletreeleavesfalling-Sheet_10
       rect:
         serializedVersion: 2
-        x: 1740
-        y: 0
-        width: 205.26315
-        height: 120
+        x: 1230
+        y: 8
+        width: 72
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,239 +373,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5d9ed54719140b49bf76098c2ecef61
-      internalID: 821602978
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MapleFall_9
-      rect:
-        serializedVersion: 2
-        x: 1945
-        y: 0
-        width: 205.26315
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ee2febea37ed04140b1cf26aa485d1ab
-      internalID: 1149222423
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MapleFall_10
-      rect:
-        serializedVersion: 2
-        x: 2150
-        y: 0
-        width: 205.26315
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 40f774b3960236948aec8ba8b955883b
-      internalID: 1417488966
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MapleFall_11
-      rect:
-        serializedVersion: 2
-        x: 2355
-        y: 0
-        width: 205.26315
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2e2e57e6b69e31b44b5c1e67b2da43f4
-      internalID: 1011203710
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MapleFall_12
-      rect:
-        serializedVersion: 2
-        x: 2560
-        y: 0
-        width: 205.26315
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 659f39f303deba0409fa090fea3dfe32
-      internalID: 1784920288
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MapleFall_13
-      rect:
-        serializedVersion: 2
-        x: 2765
-        y: 0
-        width: 205.26315
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 185cf915740d32c4b80a1116e2889121
-      internalID: -264268773
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MapleFall_14
-      rect:
-        serializedVersion: 2
-        x: 2970
-        y: 0
-        width: 205.26315
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e8ee73631e54c674789e86cc9d13e7eb
-      internalID: 1317411621
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MapleFall_15
-      rect:
-        serializedVersion: 2
-        x: 3175
-        y: 0
-        width: 205.26315
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 11e39b4a03f835f47abb10e0d1fc4955
-      internalID: -344033333
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MapleFall_16
-      rect:
-        serializedVersion: 2
-        x: 3380
-        y: 0
-        width: 205.26315
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1f18d821c79cb1a4f931151aa0df236d
-      internalID: 330426272
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MapleFall_17
-      rect:
-        serializedVersion: 2
-        x: 3585
-        y: 0
-        width: 205.26315
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bc43bde1a3c3f3f40ab0973728055caa
-      internalID: -2001980641
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MapleFall_18
-      rect:
-        serializedVersion: 2
-        x: 3790
-        y: 0
-        width: 205.26315
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 195443c3c67414149b4d0cbdb33257d2
-      internalID: 1345212623
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MapleFall_19
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 205
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b3952f8a81992748ba49a6fe4c31714
-      internalID: 1983266367
+      spriteID: faf8faf00dc7503458cf14da86abf704
+      internalID: 435518594
       vertices: []
       indices: 
       edges: []
@@ -579,26 +390,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      MapleFall_0: 885328417
-      MapleFall_1: 1157246591
-      MapleFall_10: 1417488966
-      MapleFall_11: 1011203710
-      MapleFall_12: 1784920288
-      MapleFall_13: -264268773
-      MapleFall_14: 1317411621
-      MapleFall_15: -344033333
-      MapleFall_16: 330426272
-      MapleFall_17: -2001980641
-      MapleFall_18: 1345212623
-      MapleFall_19: 1983266367
-      MapleFall_2: 1476491723
-      MapleFall_3: 71792198
-      MapleFall_4: 538791292
-      MapleFall_5: 350513277
-      MapleFall_6: 1673987987
-      MapleFall_7: 1342865072
-      MapleFall_8: 821602978
-      MapleFall_9: 1149222423
+      mapletreeleavesfalling-Sheet_0: 349504659
+      mapletreeleavesfalling-Sheet_1: -1770254516
+      mapletreeleavesfalling-Sheet_10: 435518594
+      mapletreeleavesfalling-Sheet_2: -1793722294
+      mapletreeleavesfalling-Sheet_3: 860670096
+      mapletreeleavesfalling-Sheet_4: -2066687444
+      mapletreeleavesfalling-Sheet_5: 192151490
+      mapletreeleavesfalling-Sheet_6: 240657903
+      mapletreeleavesfalling-Sheet_7: -1899641752
+      mapletreeleavesfalling-Sheet_8: 1579662771
+      mapletreeleavesfalling-Sheet_9: 164850590
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

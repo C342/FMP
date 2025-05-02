@@ -5,7 +5,7 @@ public class AcornSpawner : MonoBehaviour
     public GameObject Acorn;
     public Vector2 spawnAreaMin = new Vector2(-10, -5);
     public Vector2 spawnAreaMax = new Vector2(10, 5);
-    public float spawnInterval = 15f;
+    public float spawnInterval = 5f;
 
     private void Start()
     {

@@ -9,7 +9,7 @@ public class ClockTimer : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI uiTimerText;
     [SerializeField] TextMeshProUGUI uiDateText;
-    [SerializeField] float timerMultiplier 2;
+    [SerializeField] float timerMultiplier = 2.5f;
 
     private float timerOutput;
     private float seconds;

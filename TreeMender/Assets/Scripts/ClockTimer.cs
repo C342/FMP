@@ -8,10 +8,17 @@ using UnityEngine.SceneManagement;
 public class ClockTimer : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI uiTimerText;
-    [SerializeField] float timerMultiplier = 1;
+    [SerializeField] TextMeshProUGUI uiDateText;
+    [SerializeField] float timerMultiplier 2;
+
     private float timerOutput;
     private float seconds;
     private float minutes;
+    private int currentDayIndex = 0;
+
+    private string[] days = { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
+    private float dayInterval = 10f;
+    private float nextDayTime = 10f;
 
     private void Update()
     {
@@ -20,9 +27,17 @@ public class ClockTimer : MonoBehaviour
         seconds = Mathf.FloorToInt(timerOutput % 60);
         uiTimerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
 
-        if (minutes > 15)
+        if (minutes >= nextDayTime)
         {
-            SceneManager.LoadScene("Game");
+            AdvanceDay();
         }
+
+        uiDateText.text = days[currentDayIndex % days.Length];
+    }
+
+    private void AdvanceDay()
+    {
+        currentDayIndex++;
+        nextDayTime += dayInterval;
     }
 }

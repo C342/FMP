@@ -5,51 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class SceneController : MonoBehaviour
 {
-    public void PlayButton()
+    public void switchScene(string sceneName)
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        if (Input.GetMouseButtonDown(0))
         {
-            SceneManager.LoadScene("Level 1");
+            SceneManager.LoadScene(sceneName);
         }
     }
 
     public void QuitGame()
     {
         Application.Quit();
-    }
-
-    public void Options()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        if (Input.GetMouseButtonDown(0))
-        {
-            SceneManager.LoadScene("Options");
-        }
-    }
-
-    public void Credits()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        if (Input.GetMouseButtonDown(0))
-        {
-            SceneManager.LoadScene("Credits");
-        }
-    }
-
-    public void ReturnToTitle()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        if (Input.GetMouseButtonDown(0))
-        {
-            SceneManager.LoadScene("TitleScreen");
-        }
-    }
-    public void LoadShop()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            SceneManager.LoadScene("ShopScreen");
-        }
     }
 }

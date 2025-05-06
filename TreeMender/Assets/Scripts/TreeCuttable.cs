@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class TreeCuttable : ToolHit
 {
-
     [SerializeField] GameObject pickUpDrop;
     [SerializeField] static int DropCount = 2;
     [SerializeField] float spread = 0.7f;
+
     public override void Hit()
     {
         while (DropCount > 0)
@@ -25,9 +25,8 @@ public class TreeCuttable : ToolHit
 
     public void CursedTreeCut()
     {
-        if (Input.GetMouseButtonDown(0))
         {
-            AcornCounter.currentAcorns = +2;
+            AcornCounter.currentAcorns += 2;
         }
     }
 }

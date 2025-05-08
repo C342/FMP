@@ -6,7 +6,8 @@ using UnityEngine.UI;
 
 public class Shop : MonoBehaviour
 {
-    public int Acorns;
+    public int Acorns = 0;
+    public static GameManager Instance;
 
     public int WaterBucket;
     public int MWaterCan;

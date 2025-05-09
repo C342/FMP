@@ -21,6 +21,7 @@ public class TreeCuttable : ToolHit
             go.transform.position = position;
         }
         Destroy(gameObject);
+        AcornCounter.currentAcorns -= 2;
     }
 
     public void CursedTreeCut()

@@ -7,8 +7,9 @@ public class ToolsCharacterController : MonoBehaviour
 {
     CharacterController character;
     Rigidbody2D rb;
-    [SerializeField] float offsetDistance = 1f;
-    [SerializeField] float sizeOfInteractableArea = 1.2f;
+
+    [SerializeField] float offsetDistance = 0.5f;
+    [SerializeField] float sizeOfInteractableArea = 0.5f;
 
     Vector2 lastMotionVector;
 

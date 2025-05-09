@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 6616226002787529235}
   - component: {fileID: 281538114642108275}
   - component: {fileID: 2741580894243170676}
-  - component: {fileID: 9096660789653184057}
   m_Layer: 0
   m_Name: ShopShack
   m_TagString: Untagged
@@ -146,7 +145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c67f168fbe551214b95174be19803c7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Click to open Shop!
+  message: Looks like a shop!
 --- !u!61 &281538114642108275
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -219,15 +218,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &9096660789653184057
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7285626363648399249}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f47f4d890e5a72249a385a6bd9c3c25b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

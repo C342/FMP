@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -12,9 +13,10 @@ public class TreeCuttable : ToolHit
     [SerializeField] static int DropCount = 2;
     [SerializeField] float spread = 0.7f;
 
+    public static int treesCutDown = 0;
+
     public override void Hit()
     {
-
         while (DropCount > 0)
         {
             DropCount -= 1;
@@ -25,13 +27,23 @@ public class TreeCuttable : ToolHit
             GameObject go = Instantiate(pickUpDrop);
             go.transform.position = position;
         }
+
+        treesCutDown++;
+
         Destroy(gameObject);
         audioSource.Play();
+
         if (Input.GetMouseButtonDown(0))
         {
             ShopAcornCount.shopAcornText.text = "Acorns: " + -2;
         }
+
+        if (treesCutDown >= 5)
+        {
+            SceneController.switchScene("GameOver");
+        }
     }
+
     public void CursedTreeCut()
     {
         if (Input.GetMouseButtonDown(0))

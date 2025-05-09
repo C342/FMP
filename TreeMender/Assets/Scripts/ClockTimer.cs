@@ -17,8 +17,8 @@ public class ClockTimer : MonoBehaviour
     private int currentDayIndex = 0;
 
     private string[] days = { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
-    private float dayInterval = 10f;
-    private float nextDayTime = 10f;
+    private float dayInterval = 5f;
+    private float nextDayTime = 5f;
 
     private void Update()
     {

@@ -7,7 +7,7 @@ public class ShopAcornCount : MonoBehaviour
 {
     public static ShopAcornCount Instance;
 
-    public TMP_Text shopAcornText;
+    public static TMP_Text shopAcornText;
     public static int currentAcorns = 0;
 
     void Awake()

@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 8510517601754968554}
   m_Layer: 0
   m_Name: MapleTree
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: -964024171, guid: 7b4dd5ba3342de64abc0f6294b3e7672, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -124,8 +124,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: affc677d335a2644883e9b4441b9794d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 4740745485487612535}
   pickUpDrop: {fileID: 2502886762749349490, guid: 61eef7c9a57b994459bfe6ad9beb11c9, type: 3}
-  DropCount: 2
   spread: 0.7
 --- !u!114 &756328591613761399
 MonoBehaviour:
@@ -295,7 +295,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.028247863, y: -0.08890946}
+  m_Offset: {x: -0.038441055, y: -0.08890945}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -306,7 +306,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.13854179, y: 0.6948962}
+  m_Size: {x: 0.118155405, y: 0.6948962}
   m_EdgeRadius: 0
 --- !u!61 &8510517601754968554
 BoxCollider2D:

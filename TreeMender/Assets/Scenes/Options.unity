@@ -1599,7 +1599,7 @@ MonoBehaviour:
   Mixer: {fileID: 24100000, guid: 1be78ae2b28299d45a9b8d5a48b17bde, type: 2}
   AudioSource: {fileID: 1597494980}
   ValueText: {fileID: 1060858566}
-  MixMode: 0
+  MixMode: 2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

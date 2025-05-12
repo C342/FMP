@@ -13,7 +13,6 @@ public class GameManager : MonoBehaviour
     {
         if (Instance == null)
         {
-            Instance = GameManager.Instance;
             DontDestroyOnLoad(gameObject);
         }
         else
